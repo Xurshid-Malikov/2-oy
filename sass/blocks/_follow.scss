@@ -1,0 +1,40 @@
+.follow {
+    margin-bottom: 150px;
+    padding: 198px 0 155px 290px;
+    background-image: url("../images/bgi4.png"), url("../images/bgi3.png");
+    background-repeat: no-repeat;
+    background-size: 613px 481px, 1520px 308px;
+    background-position:  calc(50% + 380px), center;
+}
+.follow__title {
+    margin: 0 0 32px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.follow__form{
+    display: flex;
+    align-items: center;
+}
+.follow__input {
+    width: 335px;
+    margin-right: 20px;
+    padding: 16px 0 14px 22px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 5px;
+    &::placeholder {
+        font-weight: 350;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+    }
+}
+.intro-link {
+    &--btn {
+        line-height: 20px;
+        padding: 15px 52px;
+        border: none;
+    }
+}

@@ -1,0 +1,76 @@
+.contact {
+    margin-bottom: 245px;
+}
+.contact__inner {
+    width: 100%;
+    display: flex;
+}
+.contact__iframe {
+    width: 462px;
+    height: 652px;
+}
+.contact__right {
+    width: 988px;
+    padding: 62px 0 74px 166px;
+    background-color: $main-text-color;
+    background-image: url("../images/bgi5.png");
+    background-repeat: no-repeat;
+    background-size: 988px 624px;
+    background-position: bottom right;
+}
+.contact__info {
+    width: 375px;
+}
+.contact__form {
+    display: flex;
+    flex-direction: column;
+}
+.contact__title {
+    margin: 0 0 14px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.contact__text {
+    margin: 0 0 29px;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.contact__input {
+    display: inline-block;
+    width: 375px;
+    margin-bottom: 14px;
+    padding: 16px 0 13px 22px;
+    border: none;
+    background-color: #fff;
+    &::placeholder {
+        font-weight: 350;
+        font-size: 16px;
+        line-height: 21px;
+        color: #949494;
+    }
+}
+.contact__area {
+    margin-bottom: 30px;
+    padding: 16px 0 0 22px;
+    resize: none;
+    &::placeholder {
+        font-weight: 350;
+        font-size: 16px;
+        line-height: 21px;
+        color: #949494;
+    }
+}
+.intro-link {
+    &--con {
+        max-width: 228px;
+        padding: 14px 50px;
+        border: none;
+        &::before {
+            content: none;
+        }
+    }
+}

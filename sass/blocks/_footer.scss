@@ -1,0 +1,91 @@
+.footer {
+    padding: 54px 0 23px;
+    background-color: #F3F3F3;
+    border: 1px solid #EBEBEB;
+}
+.footer__inner {
+    display: flex;
+}
+.column-div {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.logo-link {
+    &--footer {
+        position: static;
+    }
+}
+.menu {
+    &--footer {
+        display: flex;
+        margin-left: 67px;
+        margin-right: 127px;
+    }
+}
+.menu__list {
+    &--footer {
+        width: 86px;
+        flex-direction: column;
+        align-items: start;
+        &::before {
+            content: none;
+        }
+    }
+    &--sec {
+        width: 115px;
+        margin-left: 87px;
+    }
+}
+.menu__item--footer + .menu__item--footer{
+    margin-top: 14px;
+    margin-left: 0;
+}
+.time-list {
+    &--footer {
+        position: relative;
+        flex-direction: column;
+        align-items: start;
+        width: 175px;
+        margin-right: 114px;
+        margin-left: 0;
+        padding-left: 27px;
+        &::before {
+            position: absolute;
+            top: 2px;
+            left: 0;
+            margin-right: 0;
+        }
+    }
+}
+.time-list__item--footer + .time-list__item--footer{
+    margin-top: 3px;
+    margin-left: 0;
+}
+.address {
+    &--footer {
+        width: 175px;
+    }
+}
+.tel-list {
+    &--footer {
+        flex-direction: column;
+        margin-bottom: 63px;
+        margin-left: 0;
+    }
+}
+.tel-list__item--footer + .tel-list__item--footer{
+    margin-top: 3px;
+    margin-left: 0;
+    &::before {
+        content: none;
+    }
+}
+.footer__span {
+    width: 208px;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #5C5C5C;
+}
